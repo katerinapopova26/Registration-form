@@ -1,9 +1,12 @@
-function App() {
+import React from "react";
+import RegistrationForm from "./components/RegistrationForm";
+
+const App = () => {
   return (
-    <div className="App">
-      <h1>Hi there</h1>
+    <div>
+      <RegistrationForm />
     </div>
   );
-}
+};
 
 export default App;
